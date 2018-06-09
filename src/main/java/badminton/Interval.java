@@ -1,14 +1,15 @@
 package badminton;
 
+import java.time.LocalDate;
 import java.util.Objects;
 
 class Interval {
-    private Day day;
+    private LocalDate date;
     private int startHour;
     private int endHour;
 
-    Interval(Day day, int startHour, int endHour) {
-        this.day = day;
+    Interval(LocalDate date, int startHour, int endHour) {
+        this.date = date;
         this.startHour = startHour;
         this.endHour = endHour;
     }
@@ -20,11 +21,20 @@ class Interval {
         Interval interval = (Interval) o;
         return startHour == interval.startHour &&
                 endHour == interval.endHour &&
-                Objects.equals(day, interval.day);
+                Objects.equals(date, interval.date);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(day, startHour, endHour);
+        return Objects.hash(date, startHour, endHour);
+    }
+
+    public int subtotal(UnitPrice unitPrice) {
+        int sum = 0;
+        for (int hour = startHour; hour < endHour; hour++) {
+            sum += unitPrice.get(date.getDayOfWeek().getValue(), hour);
+        }
+
+        return sum;
     }
 }

@@ -30,7 +30,11 @@ public class UnitPrice {
                 weekendPrice.get(hour);
     }
 
-    private boolean isWeekday(int day) {
-        return day <= 5;
+    private boolean isWeekday(int dayOfWeek) {
+        if (dayOfWeek < 1 || dayOfWeek > 7) {
+            throw new IllegalArgumentException("invalid day of week");
+        }
+
+        return dayOfWeek <= 5;
     }
 }

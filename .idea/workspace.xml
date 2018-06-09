@@ -12,55 +12,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Booking$badminton_in_Booking.coverage" NAME="badminton in Booking Coverage Results" MODIFIED="1528523773046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Booking$badminton_in_Booking.coverage" NAME="badminton in Booking Coverage Results" MODIFIED="1528527896722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>badminton.*</FILTER>
     </SUITE>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="TestUnitPrice.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Booking/src/test/java/badminton/TestUnitPrice.java">
+      <file leaf-file-name="TestSiteCancel.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Booking/src/test/java/badminton/TestSiteCancel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="41" column="39" lean-forward="false" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UnitPrice.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/UnitPrice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding>
-                <element signature="e#950#951#0" expanded="true" />
-                <element signature="e#981#982#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UnitPriceOfDay.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/UnitPriceOfDay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-              <folding>
-                <element signature="e#584#585#0" expanded="true" />
-                <element signature="e#640#641#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Site.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/Site.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="64" column="70" lean-forward="false" selection-start-line="64" selection-start-column="70" selection-end-line="64" selection-end-column="70" />
+            <state relative-caret-position="224">
+              <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -74,6 +36,15 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>day</find>
+      <find>(Lo</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>date</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -89,15 +60,21 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/badminton/TestSite.java" />
-        <option value="$PROJECT_DIR$/../Booking/src/main/java/badminton/Interval.java" />
-        <option value="$PROJECT_DIR$/../Booking/src/test/java/badminton/TestSiteCancel.java" />
-        <option value="$PROJECT_DIR$/../Booking/src/test/java/badminton/TestSiteBook.java" />
-        <option value="$PROJECT_DIR$/../Booking/src/test/java/badminton/TestLocalTime.java" />
-        <option value="$PROJECT_DIR$/../Booking/src/test/java/badminton/TestSubtotal.java" />
         <option value="$PROJECT_DIR$/../Booking/src/main/java/badminton/Site.java" />
         <option value="$PROJECT_DIR$/../Booking/src/test/java/badminton/TestUnitPrice.java" />
         <option value="$PROJECT_DIR$/../Booking/src/main/java/badminton/UnitPriceOfDay.java" />
+        <option value="$PROJECT_DIR$/../Booking/src/main/java/badminton/CommonUnitPrice.java" />
+        <option value="$PROJECT_DIR$/../Booking/src/main/java/badminton/DefaultUnitPrice.java" />
         <option value="$PROJECT_DIR$/../Booking/src/main/java/badminton/UnitPrice.java" />
+        <option value="$PROJECT_DIR$/../Booking/src/main/java/badminton/Day.java" />
+        <option value="$PROJECT_DIR$/../Booking/src/main/java/badminton/Date.java" />
+        <option value="$PROJECT_DIR$/../Booking/src/test/java/badminton/TestLocalTime.java" />
+        <option value="$PROJECT_DIR$/../Booking/src/test/java/badminton/TestLocalDate.java" />
+        <option value="$PROJECT_DIR$/../Booking/src/main/java/badminton/BookingDate.java" />
+        <option value="$PROJECT_DIR$/../Booking/src/main/java/badminton/Interval.java" />
+        <option value="$PROJECT_DIR$/../Booking/src/test/java/badminton/TestSiteBook.java" />
+        <option value="$PROJECT_DIR$/../Booking/src/test/java/badminton/TestSubtotal.java" />
+        <option value="$PROJECT_DIR$/../Booking/src/test/java/badminton/TestSiteCancel.java" />
       </list>
     </option>
   </component>
@@ -240,7 +217,7 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="TestLocalTime.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLocalDate.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="badminton.*" />
@@ -251,8 +228,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="badminton" />
-      <option name="MAIN_CLASS_NAME" value="badminton.TestLocalTime" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="badminton.TestLocalDate" />
+      <option name="METHOD_NAME" value="testEquals" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -265,7 +242,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TestSiteCancel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSubtotal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="badminton.*" />
@@ -276,7 +253,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="badminton" />
-      <option name="MAIN_CLASS_NAME" value="badminton.TestSiteCancel" />
+      <option name="MAIN_CLASS_NAME" value="badminton.TestSubtotal" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -290,7 +267,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TestSiteCancel.given_cancelled_interval_not_intersects_with_existing_when_cancelling_then_refuses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSubtotal.test_weekday_not_cancelled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="badminton.*" />
@@ -301,8 +278,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="badminton" />
-      <option name="MAIN_CLASS_NAME" value="badminton.TestSiteCancel" />
-      <option name="METHOD_NAME" value="given_cancelled_interval_not_intersects_with_existing_when_cancelling_then_refuses" />
+      <option name="MAIN_CLASS_NAME" value="badminton.TestSubtotal" />
+      <option name="METHOD_NAME" value="test_weekday_not_cancelled" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -427,18 +404,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.badminton in Booking" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestSiteCancel" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestSiteCancel.given_cancelled_interval_not_intersects_with_existing_when_cancelling_then_refuses" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestLocalTime.test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestUnitPrice.unit_price_on_weekday" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestUnitPrice.unit_price_on_weekday" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestSubtotal.test_weekday_not_cancelled" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestSubtotal" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestLocalDate.testEquals" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.badminton in Booking" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestUnitPrice.unit_price_on_weekday" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestLocalTime.test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestSiteCancel.given_cancelled_interval_not_intersects_with_existing_when_cancelling_then_refuses" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestSiteCancel" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestLocalDate.testEquals" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestSubtotal.test_weekday_not_cancelled" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestSubtotal" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestUnitPrice.unit_price_on_weekday" />
       </list>
     </recent_temporary>
   </component>
@@ -459,34 +436,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestLocalTime_test - 2018.06.09 at 14h 05m 36s.xml">
-      <configuration name="TestLocalTime.test" configurationId="JUnit" />
+    <history-entry file="TestLocalDate_testEquals - 2018.06.09 at 15h 08m 53s.xml">
+      <configuration name="TestLocalDate.testEquals" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestLocalTime_test - 2018.06.09 at 14h 06m 19s.xml">
-      <configuration name="TestLocalTime.test" configurationId="JUnit" />
+    <history-entry file="TestLocalDate_testEquals - 2018.06.09 at 15h 09m 07s.xml">
+      <configuration name="TestLocalDate.testEquals" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestLocalTime_test - 2018.06.09 at 14h 15m 22s.xml">
-      <configuration name="TestLocalTime.test" configurationId="JUnit" />
+    <history-entry file="TestLocalDate_testEquals - 2018.06.09 at 15h 16m 47s.xml">
+      <configuration name="TestLocalDate.testEquals" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestLocalTime_test - 2018.06.09 at 14h 15m 35s.xml">
-      <configuration name="TestLocalTime.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestUnitPrice_unit_price_on_weekday - 2018.06.09 at 14h 15m 45s.xml">
-      <configuration name="TestUnitPrice.unit_price_on_weekday" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestUnitPrice_unit_price_on_weekday - 2018.06.09 at 14h 18m 10s.xml">
-      <configuration name="TestUnitPrice.unit_price_on_weekday" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="badminton_in_Booking - 2018.06.09 at 14h 30m 08s.xml">
+    <history-entry file="badminton_in_Booking - 2018.06.09 at 15h 04m 57s.xml">
       <configuration name="badminton in Booking" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="badminton_in_Booking - 2018.06.09 at 14h 30m 23s.xml">
+    <history-entry file="badminton_in_Booking - 2018.06.09 at 15h 05m 46s.xml">
       <configuration name="badminton in Booking" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="badminton_in_Booking - 2018.06.09 at 14h 33m 59s.xml">
+    <history-entry file="badminton_in_Booking - 2018.06.09 at 15h 16m 51s.xml">
       <configuration name="badminton in Booking" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="badminton_in_Booking - 2018.06.09 at 14h 38m 20s.xml">
+    <history-entry file="badminton_in_Booking - 2018.06.09 at 15h 21m 27s.xml">
+      <configuration name="badminton in Booking" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="badminton_in_Booking - 2018.06.09 at 15h 23m 20s.xml">
+      <configuration name="badminton in Booking" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="badminton_in_Booking - 2018.06.09 at 15h 24m 33s.xml">
+      <configuration name="badminton in Booking" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="badminton_in_Booking - 2018.06.09 at 15h 25m 05s.xml">
       <configuration name="badminton in Booking" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -504,20 +481,20 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3284091" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284091" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10193133" sideWeight="0.50592214" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.064772725" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25751072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49407783" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -529,6 +506,33 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49407783" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3284091" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10193133" sideWeight="0.50592214" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.064772725" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25751072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -550,7 +554,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/Day.java">
+    <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/BookingDate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -588,7 +592,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/Day.java">
+    <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/BookingDate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -612,44 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Booking/src/test/java/badminton/TestSiteBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <element signature="method#given_booked_interval_same_as_existing_when_booking_then_refuses#0;class#TestSiteBook#0" expanded="false" />
-            <element signature="method#given_booked_interval_intersects_with_existing_when_booking_then_refuses#0;class#TestSiteBook#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Booking/src/test/java/badminton/TestSiteCancel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="49" column="101" lean-forward="false" selection-start-line="49" selection-start-column="101" selection-end-line="49" selection-end-column="101" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/Day.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/Interval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding>
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/environment/java/jdk8/src.zip!/java/time/LocalDateTime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -663,57 +629,16 @@
         <state relative-caret-position="353">
           <caret line="234" column="15" lean-forward="false" selection-start-line="234" selection-start-column="15" selection-end-line="234" selection-end-column="15" />
           <folding>
-            <element signature="e#8287#8288#0" expanded="true" />
-            <element signature="e#8323#8324#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/environment/java/jdk8/src.zip!/java/time/LocalDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="803" column="21" lean-forward="false" selection-start-line="803" selection-start-column="21" selection-end-line="803" selection-end-column="21" />
-          <folding>
-            <element signature="e#32272#32273#0" expanded="true" />
-            <element signature="e#32310#32311#0" expanded="true" />
-            <element signature="e#32541#32542#0" expanded="true" />
-            <element signature="e#32567#32568#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Booking/src/test/java/badminton/TestLocalTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/Site.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="64" column="70" lean-forward="false" selection-start-line="64" selection-start-column="70" selection-end-line="64" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Booking/src/test/java/badminton/TestUnitPrice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="41" column="39" lean-forward="false" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#8287#8288#0" expanded="false" />
+            <element signature="e#8323#8324#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/UnitPriceOfDay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        <state relative-caret-position="269">
+          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding>
             <element signature="e#584#585#0" expanded="true" />
             <element signature="e#640#641#0" expanded="true" />
@@ -721,14 +646,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/DefaultUnitPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/UnitPrice.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="26" column="15" lean-forward="false" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/Site.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/environment/java/jdk8/src.zip!/java/time/LocalDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="1988" column="28" lean-forward="false" selection-start-line="1988" selection-start-column="28" selection-end-line="1988" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/BookingDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/Interval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="21" />
           <folding>
-            <element signature="e#950#951#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Booking/src/test/java/badminton/TestLocalDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Booking/src/test/java/badminton/TestSiteBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="56" column="25" lean-forward="false" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Booking/src/test/java/badminton/TestSubtotal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Booking/src/test/java/badminton/TestUnitPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Booking/src/test/java/badminton/TestSiteCancel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>

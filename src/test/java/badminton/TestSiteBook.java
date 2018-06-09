@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-public class TestSite {
+public class TestSiteBook {
     @Test
     public void given_no_booking_exists_when_booking_then_accepts() {
         Site site = new Site();
@@ -16,6 +16,9 @@ public class TestSite {
         boolean accepted = site.canBook(day, startHour, endHour);
 
         assertTrue(accepted);
+        for (int hour = startHour; hour < endHour; hour++) {
+            assertFalse(site.isBooked(day, hour));
+        }
     }
 
     @Test
@@ -36,12 +39,12 @@ public class TestSite {
     public void given_booked_interval_different_from_existing_when_booking_then_accepts() {
         Site site = new Site();
         Day day = new Day(2017, 8, 2);
-        Day anotherDay = new Day(2017, 8, 3);
         int startHour = 13;
-        int endHour = 17;
+        int endHour1 = 17;
+        int endHour2 = 20;
+        site.book(day, startHour, endHour1);
 
-        site.book(day, startHour, endHour);
-        boolean accepted = site.canBook(anotherDay, startHour, endHour);
+        boolean accepted = site.canBook(day, endHour1, endHour2);
 
         assertTrue(accepted);
     }

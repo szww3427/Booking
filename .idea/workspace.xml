@@ -18,13 +18,89 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="TestSubtotal.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestSiteCancel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Booking/src/test/java/badminton/TestSiteCancel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="63" column="36" lean-forward="true" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Site.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/Site.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="52" column="10" lean-forward="false" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestSiteBook.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Booking/src/test/java/badminton/TestSiteBook.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestSubtotal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Booking/src/test/java/badminton/TestSubtotal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+            <state relative-caret-position="155">
+              <caret line="13" column="45" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Booking.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/Booking.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#905#906#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultUnitPrice.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/DefaultUnitPrice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnitPrice.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/UnitPrice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="728">
+              <caret line="26" column="15" lean-forward="false" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnitPriceOfDay.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/UnitPriceOfDay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+              <folding>
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,9 +119,12 @@
     <findStrings>
       <find>(Lo</find>
       <find>day</find>
+      <find>&quot;unused&quot;</find>
+      <find>interval</find>
     </findStrings>
     <replaceStrings>
       <replace>date</replace>
+      <replace>user</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -62,7 +141,6 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/badminton/TestSite.java" />
-        <option value="$PROJECT_DIR$/../Booking/src/main/java/badminton/Site.java" />
         <option value="$PROJECT_DIR$/../Booking/src/test/java/badminton/TestUnitPrice.java" />
         <option value="$PROJECT_DIR$/../Booking/src/main/java/badminton/UnitPriceOfDay.java" />
         <option value="$PROJECT_DIR$/../Booking/src/main/java/badminton/CommonUnitPrice.java" />
@@ -76,7 +154,9 @@
         <option value="$PROJECT_DIR$/../Booking/src/main/java/badminton/Interval.java" />
         <option value="$PROJECT_DIR$/../Booking/src/test/java/badminton/TestSiteBook.java" />
         <option value="$PROJECT_DIR$/../Booking/src/test/java/badminton/TestSiteCancel.java" />
+        <option value="$PROJECT_DIR$/../Booking/src/main/java/badminton/Booking.java" />
         <option value="$PROJECT_DIR$/../Booking/src/test/java/badminton/TestSubtotal.java" />
+        <option value="$PROJECT_DIR$/../Booking/src/main/java/badminton/Site.java" />
       </list>
     </option>
   </component>
@@ -438,21 +518,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestLocalDate_testEquals - 2018.06.09 at 15h 08m 53s.xml">
-      <configuration name="TestLocalDate.testEquals" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestLocalDate_testEquals - 2018.06.09 at 15h 09m 07s.xml">
-      <configuration name="TestLocalDate.testEquals" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestLocalDate_testEquals - 2018.06.09 at 15h 16m 47s.xml">
-      <configuration name="TestLocalDate.testEquals" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="badminton_in_Booking - 2018.06.09 at 15h 05m 46s.xml">
-      <configuration name="badminton in Booking" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="badminton_in_Booking - 2018.06.09 at 15h 16m 51s.xml">
-      <configuration name="badminton in Booking" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="badminton_in_Booking - 2018.06.09 at 15h 21m 27s.xml">
       <configuration name="badminton in Booking" configurationId="JUnit" />
     </history-entry>
@@ -466,6 +531,21 @@
       <configuration name="badminton in Booking" configurationId="JUnit" />
     </history-entry>
     <history-entry file="badminton_in_Booking - 2018.06.09 at 15h 30m 26s.xml">
+      <configuration name="badminton in Booking" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="badminton_in_Booking - 2018.06.09 at 15h 31m 20s.xml">
+      <configuration name="badminton in Booking" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="badminton_in_Booking - 2018.06.09 at 15h 37m 00s.xml">
+      <configuration name="badminton in Booking" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="badminton_in_Booking - 2018.06.09 at 15h 38m 27s.xml">
+      <configuration name="badminton in Booking" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="badminton_in_Booking - 2018.06.09 at 15h 41m 04s.xml">
+      <configuration name="badminton in Booking" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="badminton_in_Booking - 2018.06.09 at 15h 44m 27s.xml">
       <configuration name="badminton in Booking" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -489,10 +569,10 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3284091" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284091" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.74204546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10193133" sideWeight="0.50592214" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4806818" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35454544" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25751072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -663,41 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/UnitPriceOfDay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/DefaultUnitPrice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/UnitPrice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="26" column="15" lean-forward="false" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/Site.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/environment/java/jdk8/src.zip!/java/time/LocalDate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -714,14 +759,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/Interval.java">
+    <entry file="file://$PROJECT_DIR$/../Booking/src/test/java/badminton/TestUnitPrice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="21" />
+        <state relative-caret-position="201">
+          <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -736,38 +779,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Booking/src/test/java/badminton/TestSiteBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="56" column="25" lean-forward="false" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Booking/src/test/java/badminton/TestSiteCancel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="86" column="46" lean-forward="false" selection-start-line="86" selection-start-column="46" selection-end-line="86" selection-end-column="46" />
+        <state relative-caret-position="360">
+          <caret line="63" column="36" lean-forward="true" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Booking/src/test/java/badminton/TestUnitPrice.java">
+    <entry file="file://$PROJECT_DIR$/../Booking/src/test/java/badminton/TestSubtotal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        <state relative-caret-position="155">
+          <caret line="13" column="45" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Booking/src/test/java/badminton/TestSubtotal.java">
+    <entry file="file://$PROJECT_DIR$/../Booking/src/test/java/badminton/TestSiteBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        <state relative-caret-position="170">
+          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/Site.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="52" column="10" lean-forward="false" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/Booking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/DefaultUnitPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/UnitPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="26" column="15" lean-forward="false" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Booking/src/main/java/badminton/UnitPriceOfDay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
           </folding>
         </state>
       </provider>

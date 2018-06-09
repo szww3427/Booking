@@ -30,7 +30,7 @@ public class TestSiteBook {
         int startHour = 13;
         int endHour = 17;
 
-        site.book(date, startHour, endHour);
+        site.book("unused", date, startHour, endHour);
 
         for (int hour = startHour; hour < endHour; hour++) {
             assertTrue(site.isBooked(date, hour));
@@ -44,7 +44,7 @@ public class TestSiteBook {
         int startHour = 13;
         int endHour1 = 17;
         int endHour2 = 20;
-        site.book(date, startHour, endHour1);
+        site.book("unused", date, startHour, endHour1);
 
         boolean accepted = site.canBook(date, endHour1, endHour2);
 
@@ -58,7 +58,7 @@ public class TestSiteBook {
         int startHour = 13;
         int endHour = 17;
 
-        site.book(date, startHour, endHour);
+        site.book("unused", date, startHour, endHour);
         boolean accepted = site.canBook(date, startHour, endHour);
 
         assertFalse(accepted);
@@ -71,7 +71,7 @@ public class TestSiteBook {
         int startHour = 13;
         int endHour = 17;
 
-        site.book(date, startHour, endHour);
+        site.book("unused", date, startHour, endHour);
         assertFalse(site.canBook(date, startHour - 1, endHour - 1));
         assertFalse(site.canBook(date, startHour + 1, endHour + 1));
     }

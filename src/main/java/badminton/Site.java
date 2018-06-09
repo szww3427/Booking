@@ -6,12 +6,13 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class Site {
+class Site {
     private static final int HOURS_IN_A_DAY = 24;
     private final Map<LocalDate, boolean[]> bookedHoursEachDay = new HashMap<>();
-    private final Set<Booking> bookings = new HashSet<>();
+    final Set<Booking> bookings = new HashSet<>();
+    final Set<Booking> canceledBookings = new HashSet<>();
 
-    public boolean canBook(LocalDate day, int startHour, int endHour) {
+    boolean canBook(LocalDate day, int startHour, int endHour) {
         if (!bookedHoursEachDay.containsKey(day)) {
             return true;
         }
@@ -25,11 +26,25 @@ public class Site {
         return true;
     }
 
-    public void book(String user, LocalDate day, int startHour, int endHour) {
+    void book(String user, LocalDate day, int startHour, int endHour) {
         for (int hour = startHour; hour < endHour; hour++) {
             setBooked(day, hour);
         }
         bookings.add(new Booking(user, day, startHour, endHour));
+    }
+
+    // 含违约金
+    int total(UnitPrice unitPrice) {
+        int total = 0;
+
+        for (Booking booking : bookings) {
+            total += booking.subtotal(unitPrice);
+        }
+        for (Booking booking : canceledBookings) {
+            total += booking.indemnitySubtotal(unitPrice);
+        }
+
+        return total;
     }
 
     boolean isBooked(LocalDate day, int hour) {
@@ -58,6 +73,7 @@ public class Site {
             setNotBooked(day, hour);
         }
         bookings.remove(new Booking(user, day, startHour, endHour));
+        canceledBookings.add(new Booking(user, day, startHour, endHour));
     }
 
     private void setNotBooked(LocalDate day, int hour) {

@@ -10,5 +10,8 @@ public class DefaultUnitPrice extends UnitPrice {
         addWeekendPrice(9, 12, 40);
         addWeekendPrice(12, 18, 50);
         addWeekendPrice(18, 22, 60);
+
+        setWeekdayIndemnityRatio(0.5f);
+        setWeekendIndemnityRatio(0.25f);
     }
 }

@@ -25,7 +25,7 @@ class UnitPriceOfDay {
 
     int get(int hour) {
         if (!onService(hour)) {
-            throw new RuntimeException("out of service");
+            throw new IllegalArgumentException("out of service");
         }
 
         return unitPrice[hour];
